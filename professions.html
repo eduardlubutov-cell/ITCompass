@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Обзор 10 IT-профессий: задачи специалистов, школьные предметы, вузы и колледжи Перми, медианные зарплаты.">
+  <title>Обзор IT-профессий — IT Compass</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/professions.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <script src="js/profiles.js" defer></script>
+  <script src="js/professions.js" defer></script>
+</head>
+<body class="professions-page">
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="IT Compass — главная"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>it<span class="brand-accent">compass</span></span></a>
+  <nav class="catalog-nav"><a href="index.html">На главную</a><a class="catalog-nav-cta" href="quiz.html">Пройти тест <span aria-hidden="true">→</span></a></nav>
+</header>
+<main class="catalog-main">
+  <section class="catalog-hero">
+    <div class="catalog-hero-copy">
+      <span class="catalog-kicker"><i></i> СПРАВОЧНИК IT COMPASS</span>
+      <h1>10 профессий.<br><span>Десятки путей в IT.</span></h1>
+      <p>Познакомься с разными направлениями, узнай, какие школьные предметы пригодятся, где можно получить образование и на какую зарплату ориентироваться.</p>
+      <div class="catalog-hero-meta"><span>✦ Подходит, даже если ты ещё не проходил тест</span><span>Обзор для 10–11 классов</span></div>
+    </div>
+    <div class="catalog-hero-art" aria-hidden="true"><div class="catalog-orbit orbit-a"></div><div class="catalog-orbit orbit-b"></div><div class="catalog-orbit-center">IT<span>✳</span></div><span class="orbit-label label-a">CODE</span><span class="orbit-label label-b">DATA</span><span class="orbit-label label-c">DESIGN</span></div>
+  </section>
+
+  <section class="catalog-explorer" aria-labelledby="catalog-title">
+    <div class="explorer-heading"><div><span class="section-kicker">ВЫБИРАЙ, ЧТО ИНТЕРЕСНО</span><h2 id="catalog-title">Все направления</h2><p>Открой карточку, чтобы посмотреть обучение, предметы и зарплату.</p></div><span class="catalog-count"><strong id="visible-count">10</strong> направлений</span></div>
+    <div class="catalog-tools"><label class="catalog-search"><span aria-hidden="true">⌕</span><input id="profession-search" type="search" placeholder="Найти профессию или навык…" autocomplete="off"></label><div class="filter-list" role="group" aria-label="Фильтр по типу работы"><button class="filter-chip active" data-filter="all" type="button">Все</button><button class="filter-chip" data-filter="code" type="button">Разработка</button><button class="filter-chip" data-filter="data" type="button">Данные и аналитика</button><button class="filter-chip" data-filter="design" type="button">Дизайн</button><button class="filter-chip" data-filter="infra" type="button">Инфраструктура и безопасность</button></div></div>
+    <div class="profession-grid" id="profession-grid" aria-live="polite"></div>
+    <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>Ничего не нашлось</h3><p>Попробуй изменить запрос или выбрать другой фильтр.</p><button type="button" id="reset-filters">Сбросить фильтры</button></div>
+  </section>
+  <section class="catalog-note"><div class="note-mark">i</div><div><h2>Как пользоваться этим обзором</h2><p>Школьные предметы в карточках — ориентир для подготовки, а не универсальный список ЕГЭ. Конкретные вступительные испытания зависят от программы и года набора. Перед подачей документов обязательно проверь правила приёма на сайте учебного заведения.</p></div></section>
+  <section class="catalog-bottom-cta"><div><span class="section-kicker">ХОЧЕШЬ ПОНЯТЬ, ЧТО БЛИЖЕ ТЕБЕ?</span><h2>Попробуй пройти профориентационный тест</h2><p>Ответь на вопросы о своих интересах — тест подскажет, какие направления стоит изучить внимательнее.</p></div><a class="button button-primary" href="quiz.html">Начать тест <span aria-hidden="true">→</span></a></section>
+</main>
+<footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>it<span class="brand-accent">compass</span></span></a><p>Исследуй интересы. Открывай направления. Выбирай свой путь.</p><span class="footer-note">Учебный проект «Любутова Эдуарда»</span></footer>
+</body>
+</html>

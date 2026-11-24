@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Профориентационный тест IT Compass для учеников 10–11 классов.">
+<title>IT Compass — профориентационный тест</title>
+<link rel="stylesheet" href="css/quiz.css">
+<link rel="stylesheet" href="css/mobile.css">
+<script src="js/questions-data.js" defer></script><script src="js/scoring.js" defer></script><script src="js/profiles.js" defer></script><script src="js/quiz.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="IT Compass — главная"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>it<span class="brand-accent">compass</span></span></a>
+<a class="header-home" href="index.html">← На главную</a>
+</header>
+<main>
+<section class="intro"><div class="eyebrow"><span class="eyebrow-dot"></span> ТВОЯ ТОЧКА СТАРТА В IT</div><h1>Найди направление,<br><span style="color:var(--accent)">которое близко тебе</span></h1><p>Ответь на 20 вопросов о своих интересах и способе мышления. Не нужно знать программирование — выбирай то, что действительно откликается.</p></section>
+<section class="quiz-shell" id="quiz-panel" aria-live="polite">
+<div class="quiz-meta"><span id="question-count">Вопрос 1 из 20</span><span id="progress-percent">5%</span></div><div class="progress-track" role="progressbar" aria-label="Прогресс теста" aria-valuemin="0" aria-valuemax="20" aria-valuenow="1" id="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+<h2 class="question-title" id="question-text"></h2><div class="answers" id="answers"></div>
+<div class="quiz-actions"><button class="button button-secondary" id="prev-button" type="button">← Назад</button><span class="small-note">Выбери один вариант</span><button class="button button-primary" id="next-button" type="button" disabled>Далее →</button></div>
+</section>
+<section class="result-shell" id="result-panel" hidden aria-live="polite"></section>
+</main>
+</body></html>
